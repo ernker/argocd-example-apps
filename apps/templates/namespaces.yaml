@@ -24,4 +24,5 @@ kind: Namespace
 metadata:
   name: sync-waves
   annotations:
+    argocd.argoproj.io/hook: PreSync
     argocd.argoproj.io/sync-wave: "-1"
